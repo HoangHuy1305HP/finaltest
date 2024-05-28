@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Test</title>
+    <link href="./assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="gameBoard">
+    <div class="result">
+       <div class="box">
+        <div>
+            <img src="./assets/image.img/bau.png" alt="bầu">
+        </div>
+        <div>
+            <img src="./assets/image.img/bau.png" alt="bầu">
+        </div>
+        <div>
+            <img src="./assets/image.img/bau.png" alt="bầu">
+        </div>
+       </div> 
+       <div class="">
+        <button id="spinBtn">Quay</button>
+       </div>
+    </div>
+    <div class="container">
+        <div class="wrapper-content">
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)" src="./assets/image.img/bau.png" alt="bầu">
+            </div>
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)"  src="./assets/image.img/cua.png" alt="cua">
+            </div>
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)" src="./assets/image.img/tom.png" alt="tôm">
+            </div>
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)" src="./assets/image.img/ca.png" alt="cá">
+            </div>
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)" src="./assets/image.img/huou.png" alt="hươu">
+            </div>
+            <div class="item">
+                <p>0</p>
+                <img onmouseover="hoverPic(this)" onmouseout="normalPic(this)" src="./assets/image.img/ga.png" alt="gà">
+            </div>
+        </div>
+        <div class="resetNote">
+            <div class="note">
+                <b
+              >Lưu ý:<br />
+              - Số lần đặt ở một 'Hình' sẽ là số lần xuất hiện của các 'Hình'
+              trên 'Kết quả'<br />
+              -Tổng số lần đặt tối đa là 3
+            </b>
+            </div>
+            <button id="resetBtn">Đặt lại</button>
+        </div>
+    </div>
+    </div>
+    <script src="./assets/index.js"></script>
+</body>
+</html>
